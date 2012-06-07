@@ -10,4 +10,6 @@
 
 @interface testViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *display;
+
 @end
